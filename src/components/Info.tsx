@@ -2,7 +2,7 @@ type HeaderType = {
   title: string;
 };
 
-export function Header({title}: HeaderType) {
+export function Info({title}: HeaderType) {
 
   return (
     <>

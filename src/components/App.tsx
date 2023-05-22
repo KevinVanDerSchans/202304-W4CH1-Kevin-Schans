@@ -1,7 +1,6 @@
 import {Info} from './Info';
 import {Button} from './Button';
-import {Gentleman} from '../type/gentleman';
-import '/src/index.css'
+import {Gentlemen} from './Gentlemen';
 
 export function App() {
   const title = 'The pointing gentlemen';
@@ -10,8 +9,11 @@ export function App() {
     <>
       <Info title={title}></Info>
       <Button></Button>
-    
+      <main className="main">
+        <ul className="gentlemen">
+          <Gentlemen></Gentlemen>
+        </ul>
+      </main>
     </>
-
   )
 }

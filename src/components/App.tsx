@@ -1,4 +1,5 @@
-
+import {Info} from './Info';
+import {Gentleman} from '../type/gentleman';
 import '/src/index.css'
 
 export function App() {
@@ -6,7 +7,7 @@ export function App() {
 
   return (
     <>
-      <Header title={title}></Header>
+      <Info title={title}></Info>
     
     </>
 

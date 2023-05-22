@@ -1,11 +1,13 @@
-export const gentlemen = [
+import {Gentleman} from '../type/gentleman';
+
+export const gentlemen: Gentleman[] = [
   {
     id: 1,
     name: "Bertin Osborne",
     status: "Alive",
     profession: "Youtuber",
     twitter: "@osbourne",
-    picture: "bertin.jpg",
+    picture: "assets/bertin.jpg",
     alternativeText: "Osbourne pointing at you",
     selected: true,
   },
@@ -14,7 +16,7 @@ export const gentlemen = [
     status: "RIP",
     profession: "Influencer",
     twitter: "pending",
-    picture: "fary.jpg",
+    picture: "assets/fary.jpg",
     alternativeText: "The Fary pointing at you",
     id: 2,
     selected: false,
@@ -25,7 +27,7 @@ export const gentlemen = [
     status: "Alive",
     profession: "Java developer",
     twitter: "@julius_churchs",
-    picture: "julio.jpg",
+    picture: "assets/julio.jpg",
     alternativeText: "Churchs pointing at you",
     selected: true,
   },

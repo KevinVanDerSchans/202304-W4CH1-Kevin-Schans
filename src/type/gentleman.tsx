@@ -2,7 +2,7 @@ export type Gentleman = {
   id: number;
   name: string;
   status: string;
-  proffesion: string;
+  profession: string;
   twitter: string;
   picture: string;
   alternativeText: string;

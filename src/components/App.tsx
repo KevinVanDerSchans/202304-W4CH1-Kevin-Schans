@@ -1,4 +1,5 @@
 import {Info} from './Info';
+import {Button} from './Button';
 import {Gentleman} from '../type/gentleman';
 import '/src/index.css'
 
@@ -8,6 +9,7 @@ export function App() {
   return (
     <>
       <Info title={title}></Info>
+      <Button></Button>
     
     </>
 
